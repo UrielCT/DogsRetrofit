@@ -1,24 +1,17 @@
 package com.example.dogsretrofit.view;
 
-import static java.util.Collections.emptyList;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.inputmethod.InputMethodManager;
-
 import com.example.dogsretrofit.APIService;
 import com.example.dogsretrofit.DogAdapter;
 import com.example.dogsretrofit.databinding.ActivityMainBinding;
 import com.example.dogsretrofit.model.Dogs;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
